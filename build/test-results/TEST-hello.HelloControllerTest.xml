@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.HelloControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-02T21:45:14" hostname="DESKTOP-404Q125" time="0.099">
+  <properties/>
+  <testcase name="getHello" classname="hello.HelloControllerTest" time="0.099"/>
+  <system-out><![CDATA[2016-06-02 22:45:14.265  INFO 1544 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [hello.HelloControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2016-06-02 22:45:14.269  INFO 1544 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-02 22:45:14.271  INFO 1544 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2016-06-02 22:45:14.272  INFO 1544 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2016-06-02 22:45:14.273  INFO 1544 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@31955ab0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11811234, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@232a464a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@31a1c039]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.5.RELEASE)
+
+2016-06-02 22:45:14.367  INFO 1544 --- [    Test worker] hello.HelloControllerTest                : Starting HelloControllerTest on DESKTOP-404Q125 with PID 1544 (C:\Users\vuswati\Downloads\spring-boot-app\gs-spring-boot-master\complete\build\classes\test started by vuswati in C:\Users\vuswati\Downloads\spring-boot-app\gs-spring-boot-master\complete)
+2016-06-02 22:45:14.367  INFO 1544 --- [    Test worker] hello.HelloControllerTest                : No active profile set, falling back to default profiles: default
+2016-06-02 22:45:14.376  INFO 1544 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@423f01e0: startup date [Thu Jun 02 22:45:14 BST 2016]; root of context hierarchy
+2016-06-02 22:45:14.419  INFO 1544 --- [    Test worker] hello.HelloControllerTest                : Started HelloControllerTest in 0.121 seconds (JVM running for 16.258)
+2016-06-02 22:45:14.483  INFO 1544 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String hello.HelloController.index()
+2016-06-02 22:45:14.515  INFO 1544 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@b47540a
+2016-06-02 22:45:14.528  INFO 1544 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-06-02 22:45:14.528  INFO 1544 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-06-02 22:45:14.529  INFO 1544 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 1 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
